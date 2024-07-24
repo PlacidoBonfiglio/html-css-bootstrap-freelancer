@@ -1,0 +1,9 @@
+header {
+    height: 100px;
+    background-color: #2C3E50;
+}
+
+.jumbotron {
+    height: 500px;
+    background-color: #1ABC9C;
+}
