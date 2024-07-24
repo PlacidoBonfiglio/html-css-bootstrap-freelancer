@@ -3,13 +3,18 @@ header {
     background-color: #2C3E50;
 }
 
-.portfolio div {
-    border: 2px solid rgb(80, 162, 255);
-}
-
 .jumbotron {
     min-height: 500px;
     background-color: #1ABC9C;
+}
+
+.jumbotron div,
+.about div {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.portfolio div {
+    border: 2px solid rgb(80, 162, 255);
 }
 
 .portfolio {
