@@ -9,11 +9,13 @@ header {
 }
 
 .jumbotron div,
-.about div {
+.about div,
+.info div {
     border: 2px solid rgb(255, 255, 255);
 }
 
-.portfolio div {
+.portfolio div,
+.contact div {
     border: 2px solid rgb(80, 162, 255);
 }
 
@@ -24,4 +26,27 @@ header {
 .about {
     min-height: 400px;
     background-color: #1ABC9C;
+}
+
+.contact {
+    min-height: 300px;
+}
+
+.message {
+    height: 150px;
+}
+
+.info {
+    min-height: 250px;
+    background-color: #3A546D;
+}
+
+.copyright {
+    height: 100px;
+    background-color: #2C3E50;
+}
+
+footer {
+    background-color: #2C3E50;
+    height: 100px;
 }
