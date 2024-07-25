@@ -3,32 +3,42 @@ header {
     background-color: #2C3E50;
 }
 
-.jumbotron {
+header a {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-left: 15imgpx;
+}
+
+img.avatar {
+    height: 300px;
+}
+
+#jumbotron {
     min-height: 500px;
     background-color: #1ABC9C;
 }
 
-.jumbotron div,
-.about div,
-.info div {
+#jumbotron div,
+#about div,
+#info div {
     border: 2px solid rgb(255, 255, 255);
 }
 
-.portfolio div,
-.contact div {
+#portfolio div,
+#contact div {
     border: 2px solid rgb(80, 162, 255);
 }
 
-.portfolio {
+#portfolio {
     min-height: 500px;
 }
 
-.about {
+#about {
     min-height: 400px;
     background-color: #1ABC9C;
 }
 
-.contact {
+#contact {
     min-height: 300px;
 }
 
@@ -36,7 +46,7 @@ header {
     height: 150px;
 }
 
-.info {
+#info {
     min-height: 250px;
     background-color: #3A546D;
 }
@@ -44,9 +54,4 @@ header {
 .copyright {
     height: 100px;
     background-color: #2C3E50;
-}
-
-footer {
-    background-color: #2C3E50;
-    height: 100px;
 }
