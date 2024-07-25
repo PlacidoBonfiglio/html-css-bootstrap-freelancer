@@ -1,3 +1,24 @@
+/* GENERICS */
+.bar {
+    height: 5px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.bar-blue {
+    height: 5px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #2C3E50;
+}
+
+/* UTILS */
+.relaive {
+    position: relative;
+}
+
+/* HEADER */
 header {
     height: 100px;
     background-color: #2C3E50;
@@ -9,21 +30,17 @@ header a {
     margin-left: 15px;
 }
 
-img.avatar {
-    height: 300px;
-}
-
+/* JUMBOTRON */
 #jumbotron {
     background-color: #1ABC9C;
 }
 
-.bar {
-    height: 5px;
-    width: 100px;
-    border-radius: 5px;
-    background-color: #fff;
+img.avatar {
+    height: 300px;
 }
 
+
+/* PORTFOLIO */
 #portfolio {
     min-height: 500px;
 }
@@ -32,18 +49,12 @@ img.avatar {
     color: #2C3E50;
 }
 
-.bar-blue {
-    height: 5px;
-    width: 100px;
-    border-radius: 5px;
-    background-color: #2C3E50;
-}
-
 #portfolio img {
     max-width: 100%;
     border-radius: 10px;
 }
 
+/* ABOUT */
 #about {
     min-height: 400px;
     background-color: #1ABC9C;
@@ -55,6 +66,7 @@ img.avatar {
     font-weight: 400;
 }
 
+/* CONTACT */
 #contact .form-control {
     border: 0;
     border-bottom: 1px solid lightgrey;
@@ -66,12 +78,20 @@ form .btn-seagreen {
     border: none;
 }
 
-.message {
-    height: 150px;
-}
-
 #info {
     background-color: #3A546D;
+}
+
+/* FOOTER */
+.circle-brands {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid white
+}
+
+footer i {
+    font-size: 1.2rem;
 }
 
 .start-bootstrap {
