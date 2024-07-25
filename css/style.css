@@ -13,11 +13,6 @@
     background-color: #2C3E50;
 }
 
-/* UTILS */
-.relaive {
-    position: relative;
-}
-
 /* HEADER */
 header {
     height: 100px;
@@ -38,7 +33,6 @@ header a {
 img.avatar {
     height: 300px;
 }
-
 
 /* PORTFOLIO */
 #portfolio {
@@ -91,7 +85,7 @@ form .btn-seagreen {
 }
 
 footer i {
-    font-size: 1.2rem;
+    font-size: 1.2rem; 
 }
 
 .start-bootstrap {
