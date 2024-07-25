@@ -24,17 +24,6 @@ img.avatar {
     background-color: #fff;
 }
 
-#jumbotron div,
-#about div,
-#info div {
-    /* border: 2px solid rgb(255, 255, 255); */
-}
-
-#portfolio div,
-#contact div {
-    /* border: 2px solid rgb(80, 162, 255); */
-}
-
 #portfolio {
     min-height: 500px;
 }
@@ -82,8 +71,11 @@ form .btn-seagreen {
 }
 
 #info {
-    min-height: 250px;
     background-color: #3A546D;
+}
+
+.start-bootstrap {
+    color: #1ABC9C;
 }
 
 .copyright {
