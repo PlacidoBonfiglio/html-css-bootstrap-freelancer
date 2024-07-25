@@ -67,16 +67,20 @@ img.avatar {
     border-radius: 0;
 }
 
-form .btn-seagreen {
+button.btn-seagreen {
     background-color: #1ABC9C;
     border: none;
 }
 
+#contact ::placeholder {
+    color: #222;
+}
+
+/* FOOTER */
 #info {
     background-color: #3A546D;
 }
 
-/* FOOTER */
 .circle-brands {
     height: 50px;
     width: 50px;
