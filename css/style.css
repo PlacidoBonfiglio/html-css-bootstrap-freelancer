@@ -6,7 +6,7 @@ header {
 header a {
     font-weight: 600;
     font-size: 1.1rem;
-    margin-left: 15imgpx;
+    margin-left: 15px;
 }
 
 img.avatar {
@@ -14,23 +14,45 @@ img.avatar {
 }
 
 #jumbotron {
-    min-height: 500px;
     background-color: #1ABC9C;
+}
+
+.bar {
+    height: 5px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #fff;
 }
 
 #jumbotron div,
 #about div,
 #info div {
-    border: 2px solid rgb(255, 255, 255);
+    /* border: 2px solid rgb(255, 255, 255); */
 }
 
 #portfolio div,
 #contact div {
-    border: 2px solid rgb(80, 162, 255);
+    /* border: 2px solid rgb(80, 162, 255); */
 }
 
 #portfolio {
     min-height: 500px;
+}
+
+.blue-star-separator {
+    color: #2C3E50;
+}
+
+.bar-blue {
+    height: 5px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: #2C3E50;
+}
+
+#portfolio img {
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 #about {
@@ -38,8 +60,21 @@ img.avatar {
     background-color: #1ABC9C;
 }
 
-#contact {
-    min-height: 300px;
+#about .download-btn {
+    background-color: #1ABC9C;
+    border: 1px solid white;
+    font-weight: 400;
+}
+
+#contact .form-control {
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+    border-radius: 0;
+}
+
+form .btn-seagreen {
+    background-color: #1ABC9C;
+    border: none;
 }
 
 .message {
